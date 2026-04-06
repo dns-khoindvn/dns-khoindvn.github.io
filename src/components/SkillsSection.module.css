@@ -1,0 +1,56 @@
+.label {
+  display: block;
+  padding: 1.4rem 1.25rem .55rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--label2);
+}
+.section { padding: 0 1rem 1.5rem; }
+.card {
+  background: var(--bg2);
+  border-radius: var(--r-xl);
+  padding: 1.2rem 1.1rem;
+  box-shadow: var(--sh-s);
+}
+.card h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--label);
+  margin-bottom: 1rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: .85rem;
+}
+.row:last-child { margin-bottom: 0; }
+.name {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--label);
+  width: 72px;
+  flex-shrink: 0;
+}
+.track {
+  flex: 1;
+  height: 8px;
+  background: var(--bg3);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  border-radius: 999px;
+  width: 0;
+  transition: width 1s cubic-bezier(.4,0,.2,1);
+}
+.pct {
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--label2);
+  width: 34px;
+  text-align: right;
+}
